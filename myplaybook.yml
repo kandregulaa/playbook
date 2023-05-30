@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks: 
-  - name: install git on ubuntu
+  - name: install git on ubunt
     apt:
       name: git
       state: presesnt
